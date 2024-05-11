@@ -19,7 +19,6 @@ import AdminHome from "./pages/Admin/AdminHome";
 function App() {
   return (
     <>
-      <ToastContainer />
       <Routes>
         <Route
           path="/admin"
@@ -127,6 +126,7 @@ function App() {
           }
         />
       </Routes>
+      <ToastContainer />
     </>
   );
 }
